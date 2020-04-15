@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji+2|Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    opacity: 0.9;
+}
+
+.kori-image {
+    margin-top: 20px;
+}
+
+.kori-h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header li{
+    float: right;
+
+}
+
+.header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+
+
+}
+
+.header li a:hover{
+    background-color: #e73268;
+}
+
+.beats {
+    background-color: white;
+    text-align: center;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+.beats h3 {
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
+.beats-info{
+    background-color: #e73268;
+    width: 20%;
+    margin: 20px auto 20px auto;
+    height: 340px;
+    border-radius: 15px;
+}
+
+.beats-info h3 {
+    color: #ffffff;
+    padding: 30px;
+}
+
+.mp3 {
+    margin-top: 20px;
+    background-color: #191919;
+    width: 15%;
+    height: 140px;
+    margin: 100px auto 100px auto;
+    display: inline-block;
+
+}
+
+.mp3:hover {
+    background-color: #e73268;
+
+}
+
+.mp3 h4 {
+    color: #40d1ed;
+    padding: 20px;
+}
+
+.mp3 h2 {
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.mp3 p {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.beats-preview {
+    margin: 30px auto 30px auto;
+    font-family:Poppins,Helvetica,sans-serif;
+    text-align: center;
+}
